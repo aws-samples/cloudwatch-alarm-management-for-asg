@@ -1,0 +1,5 @@
+# exclude node modules folder
+node_modules/
+
+# excloude cdk out fodler
+cdk.out/

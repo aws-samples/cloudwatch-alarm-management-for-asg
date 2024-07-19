@@ -1,0 +1,35 @@
+{
+    "cpu_util": {
+     "ActionsEnabled": "False",
+     "AlarmDescription": "CPU Utilization",
+     "AlarmName": "CPUUtilization",
+     "ComparisonOperator": "GreaterThanThreshold",
+     "EvaluationPeriods": "1",
+     "MetricName": "CPUUtilization",
+     "Period": "300",
+     "Statistic": "Average",
+     "Threshold": "20.0"
+    },
+    "ebs_write_ops": {
+     "ActionsEnabled": "False",
+     "AlarmDescription": "EBS Write Ops",
+     "AlarmName": "EBSWriteOps",
+     "ComparisonOperator": "GreaterThanThreshold",
+     "EvaluationPeriods": "2",
+     "MetricName": "EBSWriteOps",
+     "Period": "300",
+     "Statistic": "Average",
+     "Threshold": "500.0"
+    },
+    "network_in": {
+     "ActionsEnabled": "False",
+     "AlarmDescription": "Network In",
+     "AlarmName": "NetworkIn",
+     "ComparisonOperator": "GreaterThanThreshold",
+     "EvaluationPeriods": "2",
+     "MetricName": "NetworkIn",
+     "Period": "300",
+     "Statistic": "Average",
+     "Threshold": "500.0"
+    }
+  }
